@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00256F892992DB57000AD09A /* RouterWithNavigationStackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00256F882992DB57000AD09A /* RouterWithNavigationStackApp.swift */; };
+		00256F8B2992DB57000AD09A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00256F8A2992DB57000AD09A /* MainView.swift */; };
+		00256F8D2992DB58000AD09A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00256F8C2992DB58000AD09A /* Assets.xcassets */; };
+		00256F902992DB58000AD09A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00256F8F2992DB58000AD09A /* Preview Assets.xcassets */; };
+		00256F982992DBBA000AD09A /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00256F972992DBBA000AD09A /* Router.swift */; };
+		00256F9A2992DBCF000AD09A /* RoutingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00256F992992DBCF000AD09A /* RoutingView.swift */; };
+		00256F9C2992DBF7000AD09A /* ViewSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00256F9B2992DBF7000AD09A /* ViewSpec.swift */; };
+		00256F9E2992DEC9000AD09A /* View+Modal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00256F9D2992DEC9000AD09A /* View+Modal.swift */; };
+		00256FA429943028000AD09A /* MainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00256FA329943028000AD09A /* MainRouter.swift */; };
+		00256FA629943130000AD09A /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00256FA529943130000AD09A /* ListView.swift */; };
+		00256FA8299431FF000AD09A /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00256FA7299431FF000AD09A /* DetailView.swift */; };
+		00256FAA29943850000AD09A /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00256FA929943850000AD09A /* AlertView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00256F852992DB57000AD09A /* RouterWithNavigationStack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RouterWithNavigationStack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00256F882992DB57000AD09A /* RouterWithNavigationStackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterWithNavigationStackApp.swift; sourceTree = "<group>"; };
+		00256F8A2992DB57000AD09A /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		00256F8C2992DB58000AD09A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00256F8F2992DB58000AD09A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		00256F972992DBBA000AD09A /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		00256F992992DBCF000AD09A /* RoutingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingView.swift; sourceTree = "<group>"; };
+		00256F9B2992DBF7000AD09A /* ViewSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewSpec.swift; sourceTree = "<group>"; };
+		00256F9D2992DEC9000AD09A /* View+Modal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Modal.swift"; sourceTree = "<group>"; };
+		00256FA329943028000AD09A /* MainRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRouter.swift; sourceTree = "<group>"; };
+		00256FA529943130000AD09A /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		00256FA7299431FF000AD09A /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		00256FA929943850000AD09A /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00256F822992DB57000AD09A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00256F7C2992DB57000AD09A = {
+			isa = PBXGroup;
+			children = (
+				00256F872992DB57000AD09A /* RouterWithNavigationStack */,
+				00256F862992DB57000AD09A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00256F862992DB57000AD09A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00256F852992DB57000AD09A /* RouterWithNavigationStack.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00256F872992DB57000AD09A /* RouterWithNavigationStack */ = {
+			isa = PBXGroup;
+			children = (
+				00256F962992DBAD000AD09A /* Router */,
+				00256F882992DB57000AD09A /* RouterWithNavigationStackApp.swift */,
+				00256FA329943028000AD09A /* MainRouter.swift */,
+				00256F8A2992DB57000AD09A /* MainView.swift */,
+				00256FA529943130000AD09A /* ListView.swift */,
+				00256FA7299431FF000AD09A /* DetailView.swift */,
+				00256FA929943850000AD09A /* AlertView.swift */,
+				00256F8C2992DB58000AD09A /* Assets.xcassets */,
+				00256F8E2992DB58000AD09A /* Preview Content */,
+			);
+			path = RouterWithNavigationStack;
+			sourceTree = "<group>";
+		};
+		00256F8E2992DB58000AD09A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				00256F8F2992DB58000AD09A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		00256F962992DBAD000AD09A /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				00256F972992DBBA000AD09A /* Router.swift */,
+				00256F992992DBCF000AD09A /* RoutingView.swift */,
+				00256F9B2992DBF7000AD09A /* ViewSpec.swift */,
+				00256F9D2992DEC9000AD09A /* View+Modal.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00256F842992DB57000AD09A /* RouterWithNavigationStack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00256F932992DB58000AD09A /* Build configuration list for PBXNativeTarget "RouterWithNavigationStack" */;
+			buildPhases = (
+				00256F812992DB57000AD09A /* Sources */,
+				00256F822992DB57000AD09A /* Frameworks */,
+				00256F832992DB57000AD09A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RouterWithNavigationStack;
+			productName = RouterWithNavigationStack;
+			productReference = 00256F852992DB57000AD09A /* RouterWithNavigationStack.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00256F7D2992DB57000AD09A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					00256F842992DB57000AD09A = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 00256F802992DB57000AD09A /* Build configuration list for PBXProject "RouterWithNavigationStack" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00256F7C2992DB57000AD09A;
+			productRefGroup = 00256F862992DB57000AD09A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00256F842992DB57000AD09A /* RouterWithNavigationStack */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00256F832992DB57000AD09A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00256F902992DB58000AD09A /* Preview Assets.xcassets in Resources */,
+				00256F8D2992DB58000AD09A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00256F812992DB57000AD09A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00256FA629943130000AD09A /* ListView.swift in Sources */,
+				00256FA8299431FF000AD09A /* DetailView.swift in Sources */,
+				00256F9C2992DBF7000AD09A /* ViewSpec.swift in Sources */,
+				00256FA429943028000AD09A /* MainRouter.swift in Sources */,
+				00256FAA29943850000AD09A /* AlertView.swift in Sources */,
+				00256F8B2992DB57000AD09A /* MainView.swift in Sources */,
+				00256F9E2992DEC9000AD09A /* View+Modal.swift in Sources */,
+				00256F982992DBBA000AD09A /* Router.swift in Sources */,
+				00256F892992DB57000AD09A /* RouterWithNavigationStackApp.swift in Sources */,
+				00256F9A2992DBCF000AD09A /* RoutingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		00256F912992DB58000AD09A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		00256F922992DB58000AD09A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00256F942992DB58000AD09A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RouterWithNavigationStack/Preview Content\"";
+				DEVELOPMENT_TEAM = 8684QJA92T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ihor.vovk.RouterWithNavigationStack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		00256F952992DB58000AD09A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RouterWithNavigationStack/Preview Content\"";
+				DEVELOPMENT_TEAM = 8684QJA92T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ihor.vovk.RouterWithNavigationStack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00256F802992DB57000AD09A /* Build configuration list for PBXProject "RouterWithNavigationStack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00256F912992DB58000AD09A /* Debug */,
+				00256F922992DB58000AD09A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00256F932992DB58000AD09A /* Build configuration list for PBXNativeTarget "RouterWithNavigationStack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00256F942992DB58000AD09A /* Debug */,
+				00256F952992DB58000AD09A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00256F7D2992DB57000AD09A /* Project object */;
+}
